@@ -1,5 +1,5 @@
 // URL API
-const apiURL = "${process.env.CLOUD_RUN_URL}/predict"; 
+const apiURL = "${process.env.CLOUD_RUN_URL}/back-end-ambatoplant"; 
 
 // Fungsi untuk mengambil data dari API
 async function fetchData() {
