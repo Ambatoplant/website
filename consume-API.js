@@ -1,5 +1,5 @@
 // URL API
-const apiURL = "https://backend-122135389835.asia-southeast2.run.app/api/plant"; 
+const apiURL = "${process.env.CLOUD_RUN_URL}/predict"; 
 
 // Fungsi untuk mengambil data dari API
 async function fetchData() {
